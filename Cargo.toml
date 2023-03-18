@@ -1,5 +1,5 @@
 [package]
-name = "air-gradient-pro-rs"
+name = "stm32f4-rtic-renode"
 description = "Rust firmware for the AirGradient Pro"
 version = "0.1.0"
 edition = "2021"

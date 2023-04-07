@@ -3,30 +3,6 @@
 version = 3
 
 [[package]]
-name = "air-gradient-pro-rs"
-version = "0.1.0"
-dependencies = [
- "built",
- "cortex-m 0.7.7",
- "cortex-m-rt",
- "cortex-m-rtic",
- "ds323x",
- "embedded-graphics",
- "ieee802_3_miim",
- "log",
- "modular-bitfield",
- "rtic-monotonic",
- "sgp41",
- "sh1106",
- "shared-bus",
- "sht3x",
- "smoltcp",
- "stm32-eth",
- "stm32f4xx-hal",
- "wire-protocols",
-]
-
-[[package]]
 name = "aligned"
 version = "0.3.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -983,6 +959,30 @@ dependencies = [
  "cortex-m 0.7.7",
  "cortex-m-rt",
  "vcell",
+]
+
+[[package]]
+name = "stm32f4-rtic-renode"
+version = "0.1.0"
+dependencies = [
+ "built",
+ "cortex-m 0.7.7",
+ "cortex-m-rt",
+ "cortex-m-rtic",
+ "ds323x",
+ "embedded-graphics",
+ "ieee802_3_miim",
+ "log",
+ "modular-bitfield",
+ "rtic-monotonic",
+ "sgp41",
+ "sh1106",
+ "shared-bus",
+ "sht3x",
+ "smoltcp",
+ "stm32-eth",
+ "stm32f4xx-hal",
+ "wire-protocols",
 ]
 
 [[package]]

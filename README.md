@@ -19,7 +19,9 @@ NOTE: this isn't a real thing yet, just a place for hacking around in renode
   - log-usart3
   - panic-usart3 (switch to abort instead of loop'n)
   - panic-rtt
-* console: https://github.com/rust-embedded-community/menu
+* console or shell
+  https://github.com/rust-embedded-community/menu
+  https://crates.io/crates/ushell
 
 NOTE: uses my fork of renode with custom peripherals:
 https://github.com/renode/renode-infrastructure/compare/master...jonlamb-gh:renode-infrastructure:add-sensors

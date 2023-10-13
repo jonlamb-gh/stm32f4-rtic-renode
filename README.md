@@ -2,6 +2,8 @@
 
 NOTE: this isn't a real thing yet, just a place for hacking around in renode
 
+The real firmware lives here: https://github.com/jonlamb-gh/air-gradient-pro-rs
+
 ## TODOs/NOTEs
 
 * move Sensors/DS3231.cs to I2C/DS3231.cs or Timers/
